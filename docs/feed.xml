@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Saturnium Sapphire</title>
+        <link>stefenmarg.github.io/SaturniumSapphire</link>
+        <description>Saturnium Sapphire is a template using 11ty and Webpack</description>
+        <language>en</language>
+
+        <atom:link href="stefenmarg.github.io/SaturniumSapphire/feed.xml" rel="self" type="application/rss+xml"/>
+
+        
+    </channel>
+</rss>

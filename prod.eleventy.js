@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
     //Build input and output files    
     return {
         dir: {
-            output: "dev",
+            output: "docs",
             input: "src"
         },
         pathPrefix: domains["baseurl"]

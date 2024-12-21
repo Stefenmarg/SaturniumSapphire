@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Saturnium Sapphire is a template using 11ty and Webpack">
+    <meta name="keywords" content="Template, eleventy, webpack, Stefanos Margaritis, Development, Coding">
+    <meta name="author" content="Admin Adminton">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/SaturniumSapphire/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/SaturniumSapphire/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/SaturniumSapphire/assets/favicon_io/favicon-16x16.png">
+
+    <!-- Google tag (gtag.js) -->
+
+    <!-- The main JS file for the site -->
+    <script src="/SaturniumSapphire/js/global.bundle.js"></script>
+
+    <!-- Themes and other theme things -->
+    <script>
+        // Load theme as soon as the DOM is ready
+        document.addEventListener("DOMContentLoaded", function () {
+            ThemeManager.SyncCookieTheme();
+        });
+    </script>
+
+    <!-- CSS and styles -->
+    <link rel="stylesheet" href="/SaturniumSapphire/css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" >
+    
+
+    <title>Version 2.0.2 | Saturnium Sapphire</title>
+</head>
+	<body class="Ribbon" id='Body'>
+		<div>
+			<div id="Header">
+				<header>
+	<div class="container">
+		<div class="title-container" id="Title">
+			<i href="/"><h2 class="title">Saturnium Sapphire</h2></i>
+		</div>
+		<div class="nav-container" id="NavigationPane">
+			<i class='icons fa-regular fa-sun hover-animate' onclick="ThemeManager.toggleTheme()"></i>
+			
+			
+				<a id="NavigationEntry" class="nav-links" href="/SaturniumSapphire/"><i class="hover-animate"> Home </i></a>
+			
+				<a id="NavigationEntry" class="nav-links" href="/SaturniumSapphire/sample_1"><i class="hover-animate"> Sample pagination </i></a>
+			
+				<a id="NavigationEntry" class="nav-links" href="/SaturniumSapphire/versions"><i class="hover-animate"> Versions </i></a>
+			
+			
+		</div>
+	</div>
+</header>
+
+			</div>
+
+			<div class="seperator" id="Content">
+				<h2>[2.0.2] - 2024-12-04</h2>
+<h3>This site is now open source with a template comming soon!</h3>
+<h3>Added</h3>
+<ul>
+<li>Two new eleventy configs for production and dev enviroment</li>
+<li>The dev output now is in the .gitignore file</li>
+<li>All versions will now be shown in the projects's post</li>
+<li>Ability to run this site as a subpage in GitHub pages too.</li>
+<li>Pagination has been set up to work on almost all of the site</li>
+<li>New RSS feed.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>In the backend the scripts have been updated.</li>
+<li>Liinks now are processed correctly and split in url and baseurl</li>
+<li>CSS is now again back to SCSS and needs to be compiled before launch dev or prod env</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>The urls are now correctly set up.</li>
+</ul>
+<h3>Removed</h3>
+<ul>
+<li>The dotenv package from the ackend sine there is no use for it.</li>
+<li>Removed the Versions page from the header navigation.</li>
+<li>The layout of thm.liquid for better pagination backend experience</li>
+<li>The unused module dotenv from configuration files</li>
+</ul>
+
+			</div>
+
+			<div class="seperator" id="Footer">
+				<footer>
+	<div class="cst_nav center" id="SocialsPane">
+		<nav>
+			
+				<a id="SocialsIcon" class="nav-links" href="https://github.com/stefenmarg"><i class="fa-brands fa-github hover-animate"></i></a>
+			
+				<a id="SocialsIcon" class="nav-links" href="https://github.com/stefenmarg/SaturniumSapphire"><i class="fa-solid fa-code-fork hover-animate"></i></a>
+			
+				<a id="SocialsIcon" class="nav-links" href="https://stefenmarg.github.io/SaturniumSapphire/feed.xml"><i class="fa-solid fa-rss hover-animate"></i></a>
+			
+		</nav>
+	</div>
+
+	<div class="center Copyright" id="Copyright">
+		Copyright © 2024 Admin Adminton. All rights reserved.
+	</div>
+</footer>
+
+
+			</div>
+		</div>
+	</body>
+</html>

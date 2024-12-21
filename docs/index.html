@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Saturnium Sapphire is a template using 11ty and Webpack">
+    <meta name="keywords" content="Template, eleventy, webpack, Stefanos Margaritis, Development, Coding">
+    <meta name="author" content="Admin Adminton">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/SaturniumSapphire/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/SaturniumSapphire/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/SaturniumSapphire/assets/favicon_io/favicon-16x16.png">
+
+    <!-- Google tag (gtag.js) -->
+
+    <!-- The main JS file for the site -->
+    <script src="/SaturniumSapphire/js/global.bundle.js"></script>
+
+    <!-- Themes and other theme things -->
+    <script>
+        // Load theme as soon as the DOM is ready
+        document.addEventListener("DOMContentLoaded", function () {
+            ThemeManager.SyncCookieTheme();
+        });
+    </script>
+
+    <!-- CSS and styles -->
+    <link rel="stylesheet" href="/SaturniumSapphire/css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" >
+    
+
+    <title>Home | Saturnium Sapphire</title>
+</head>
+	<body class="Ribbon" id='Body'>
+		<div>
+			<div id="Header">
+				<header>
+	<div class="container">
+		<div class="title-container" id="Title">
+			<i href="/"><h2 class="title">Saturnium Sapphire</h2></i>
+		</div>
+		<div class="nav-container" id="NavigationPane">
+			<i class='icons fa-regular fa-sun hover-animate' onclick="ThemeManager.toggleTheme()"></i>
+			
+			
+				<a id="NavigationEntry" class="nav-links" href="/SaturniumSapphire/"><i class="hover-animate"> Home </i></a>
+			
+				<a id="NavigationEntry" class="nav-links" href="/SaturniumSapphire/sample_1"><i class="hover-animate"> Sample pagination </i></a>
+			
+				<a id="NavigationEntry" class="nav-links" href="/SaturniumSapphire/versions"><i class="hover-animate"> Versions </i></a>
+			
+			
+		</div>
+	</div>
+</header>
+
+			</div>
+
+			<div class="seperator" id="Content">
+				
+<div class="page" id="Page">
+
+	<h2>Home</h2>
+<h3>What is the purpose of this site?</h3>
+<p>This site will primarily function as a personal portfolio to highlight my projects and any scientific papers I may publish. Additionally, it will serve as a repository for my resume and other certifications, making them easily accessible to recruiters.</p>
+<h3>How is this site built?</h3>
+<p>In the backend before the site is built into a static site we are using <a href="https://www.11ty.dev/">Eleventy (11ty)</a> that has recently joined <a href="https://fontawesome.com/">Font Awesome</a> which infact is the service that I use for the social media icons on the footer. For bundling JavaScript code we are using <a href="https://www.npmjs.com/package/webpack">Webpack</a> that bundles all the code in one file.</p>
+
+
+	<h2> 5 Most recent posts: </h2>
+	
+</div>
+
+
+			</div>
+
+			<div class="seperator" id="Footer">
+				<footer>
+	<div class="cst_nav center" id="SocialsPane">
+		<nav>
+			
+				<a id="SocialsIcon" class="nav-links" href="https://github.com/stefenmarg"><i class="fa-brands fa-github hover-animate"></i></a>
+			
+				<a id="SocialsIcon" class="nav-links" href="https://github.com/stefenmarg/SaturniumSapphire"><i class="fa-solid fa-code-fork hover-animate"></i></a>
+			
+				<a id="SocialsIcon" class="nav-links" href="https://stefenmarg.github.io/SaturniumSapphire/feed.xml"><i class="fa-solid fa-rss hover-animate"></i></a>
+			
+		</nav>
+	</div>
+
+	<div class="center Copyright" id="Copyright">
+		Copyright © 2024 Admin Adminton. All rights reserved.
+	</div>
+</footer>
+
+
+			</div>
+		</div>
+	</body>
+</html>
