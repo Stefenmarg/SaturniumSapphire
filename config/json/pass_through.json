@@ -1,0 +1,6 @@
+{
+    "Paths": [
+        "./src/assets",
+        "./src/js/snowstorm.js"
+    ]
+}

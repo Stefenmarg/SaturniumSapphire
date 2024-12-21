@@ -1,0 +1,8 @@
+[
+	{"name": "Home", "url": "/"},
+
+	{"name": "Sample pagination", "url": "/sample_1"},
+
+	{"name": "Versions", "url": "/versions"}
+
+]

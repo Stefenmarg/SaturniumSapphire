@@ -1,0 +1,10 @@
+{
+    "Dev": {
+        "url" : "server.my",
+        "baseurl":"/SaturniumSapphire"
+    }, 
+    "Prod":{
+        "url" : "stefenmarg.github.io",
+        "baseurl":"/SaturniumSapphire"
+    }
+}

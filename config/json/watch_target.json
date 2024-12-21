@@ -1,0 +1,8 @@
+{
+    "Paths": [
+        "./src/js",
+        "./src/_data",
+        "./src/collections",
+        "./config"
+    ]
+}

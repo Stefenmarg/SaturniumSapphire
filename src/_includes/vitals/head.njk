@@ -1,0 +1,34 @@
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="{{site.description}}">
+    <meta name="keywords" content="{{site.metadata}}">
+    <meta name="author" content="{{site.author.name}}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ baseurl }}/assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ baseurl }}/assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ baseurl }}/assets/favicon_io/favicon-16x16.png">
+
+    <!-- Google tag (gtag.js) -->
+
+    <!-- The main JS file for the site -->
+    <script src="{{ baseurl }}/js/global.bundle.js"></script>
+
+    <!-- Themes and other theme things -->
+    <script>
+        // Load theme as soon as the DOM is ready
+        document.addEventListener("DOMContentLoaded", function () {
+            ThemeManager.SyncCookieTheme();
+        });
+    </script>
+
+    <!-- CSS and styles -->
+    <link rel="stylesheet" href="{{ baseurl }}/css/global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" >
+    
+
+    <title>{{ title }} | {{ site.title }}</title>
+</head>

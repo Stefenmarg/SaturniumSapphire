@@ -1,0 +1,18 @@
+{
+	"title": "Saturnium Sapphire",
+
+	"description": "Saturnium Sapphire is a template using 11ty and Webpack",
+
+	"author": {
+		"username": "Stefenmarg",
+		"name": "Admin Adminton",
+
+		"email": ""
+	},
+	
+	"metadata": "Template, eleventy, webpack, Stefanos Margaritis, Development, Coding",
+	
+	"link": "https://www.stefenmarg.github.io/SaturniumSapphire",
+
+	"language":"en"
+}
