@@ -1,10 +1,11 @@
 const pass_through = require("./config/json/pass_through.json");
+const watch_target = require("./config/json/watch_target.json");
 const domains = require("./config/json/domains.json")["Prod"];
 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const xmlPlugin = require("eleventy-xml-plugin");
 
-const fs = require('fs').promises;
+const fs = require('fs');
 
 module.exports = function (eleventyConfig) {
     //All the plugins
@@ -14,7 +15,7 @@ module.exports = function (eleventyConfig) {
     //Additional tempate formats used to build this site
     eleventyConfig.addTemplateFormats("xml");
 
-    //Filters that are used in the site
+    //Filters that are needed for site to fuctions
     eleventyConfig.addFilter("dateToRfc2822", function (dateObj) {
         return new Date(dateObj).toUTCString();
     });
@@ -39,6 +40,7 @@ module.exports = function (eleventyConfig) {
 
     //Files to copy to the destination without processing
     pass_through["Paths"].forEach(path => {
+        console.log(`[Saturnium] Added passthrough copy for: ${path}`);
         eleventyConfig.addPassthroughCopy(`${path}`);
     });
 
